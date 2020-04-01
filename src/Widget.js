@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Widget.css';
 
-//utility function, could be placed in other file
-//but kept here because it's small
+/*utility function that could be placed in other file
+but kept here because it's small*/
 const isPositiveInteger = input => {
   if (isNaN(input)) return false;
   if (!Number.isInteger(Number(input))) return false;
