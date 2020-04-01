@@ -36,6 +36,7 @@
   left: 0px;
   bottom: 0px;
   max-width: 100%;
+  transition: width 0.5s;
 }
 
 /* Box frame */
