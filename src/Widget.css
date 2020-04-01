@@ -1,0 +1,97 @@
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+.widget {
+  width: 250px;
+}
+
+/* Tooltip */
+
+.tooltip {
+  color: #fff;
+  background-color: #424242;
+  padding: 10px 0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Progress bar */
+
+.progressBar_container {
+  position: relative;
+  height: 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.progressBar_bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  max-width: 100%;
+}
+
+/* Box frame */
+
+.boxFrame {
+  border: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.boxFrame_content {
+  margin: 10px;
+}
+
+/* Notification */
+
+.notification {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.notification a {
+  color: #000;
+}
+
+.success {
+  border-color: #1cbc2c;
+  background-color: #dff0d8;
+}
+.fail {
+  border-color: #bc341c;
+  background-color: #f0dbd8;
+}
+
+/* Other */
+
+input[type='text'] {
+  padding: 11px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  margin: 3px;
+}
+
+input[type='submit'] {
+  padding: 12px;
+  background-color: #1cbc2c;
+  border: 0px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* since the a element was not a link, I changed it from a to  */
+/* a div and added styling to make it look like before  */
+.close-btn {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+}
