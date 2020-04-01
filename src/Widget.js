@@ -12,7 +12,7 @@ const isPositiveInteger = input => {
 
 const Widget = () => {
   const [funds, setFunds] = useState(0);
-  const [pledgeSum, setPledgeSum] = useState(null);
+  const [pledgeSum, setPledgeSum] = useState('');
   const [showError, setShowError] = useState(false);
   const [notificationMessage, setNotificationMessage] = useState('');
   const [hasPledged, setHasPledged] = useState(false);
